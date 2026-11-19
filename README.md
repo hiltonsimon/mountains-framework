@@ -22,12 +22,13 @@ The enemy isn't failure. It's **drift** — ending up on the plains without choo
 
 ## The System
 
-Four layers:
+Five layers:
 
 ```
 ☁️ Clouds      — someday, on the horizon. Hold lightly, review annually.
-🏔 Mountains   — the permanent why. The things worth climbing.
-⛺ Camps       — where you are this quarter, on the way up.
+🏔 Mountains   — the ends goals. The things worth climbing for their own sake.
+⛺ Camps       — where you are this quarter, on the way up a mountain.
+📊 Domains     — the means goals. The bars you maintain so you're free to climb.
 👣 Steps       — what you do today. Lives in your task manager of choice.
 ```
 
@@ -36,22 +37,61 @@ Three rituals:
 ```
 🌅 Morning Check-in  — open Claude, say "morning". See your steps for the week.
 📅 Weekly Review     — every Saturday. Did my steps lead up, or did I walk on plains?
-📆 Annual Review     — every January. Which clouds became mountains? Which dissolved?
+📆 Quarterly Review  — the split view: Mountains by narrative, Domains by bars.
 ```
 
 ---
 
-## The Five Mountains (example)
+## Mountains and Domains
 
-These are the five areas most people find their real mountains live in. Your specific mountains will be different — the reflection skill helps you find yours.
+### Mountains: The Ends Goals
+
+Mountains are what you climb for the joy of climbing. They're infinite games. There's no summit where you're done. The point is the climb itself, the camps along the way, the person you become on the journey.
+
+Mountains get Camps. Each Camp is a finite adventure on the way up — something with a start and an end that you complete. But the Mountain itself never ends. Even when all the means goals are met, you still wake up and choose the climb.
+
+Your Mountains:
 
 | Mountain | The Why |
 |---|---|
-| 🏠 Be present with my family | Memories with the kids, intimacy with my partner, showing up for extended family as a model not just a provider |
-| 💰 Build lasting financial freedom | Lock in the target with comfort and margin, never be trapped by a paycheque |
-| ✍️ Create things that matter | Books, courses, ideas — things that exist in the world after you |
-| 🤝 Stay connected to friends | Invest in the people who matter, don't let busyness be the excuse |
-| 🌍 Live a full life | Read widely, stay curious, see live music, hike mountains, look at stars |
+| 🏠 Family | Memories with the kids, intimacy with my partner, showing up as a model not just a provider |
+| ✍️ Create Things | Books, courses, ideas that exist in the world after you |
+| 🤝 Connection | Invest in the people who matter, don't let busyness be the excuse |
+| 🌍 Full Life | Read widely, stay curious, see live music, hike mountains, look at stars |
+
+### Domains: The Means Goals
+
+Domains are what you maintain so you're free to climb. They're measured against bars, and hitting the bar is good enough. The aim isn't maximisation. It's keeping the systems running so they don't become the point.
+
+Domains don't get Camps. They get quarterly bars.
+
+Your Domains:
+
+| Domain | The Bar |
+|---|---|
+| 💰 Financial | Quarterly net worth growth % — good enough is good enough |
+| 🏃 Health | 80% of weeks hit 150 Garmin intensity minutes, 80% of nights get 6+ hours sleep |
+| 💼 Career | Quarterly goals aligned to performance review — meet the bar, protect the climb |
+
+Domains are infinite to maintain (you never stop managing money or health), but they're measured each quarter against finite, good enough bars. Once Financial is handled, it becomes something you maintain, not a mountain you obsess over. The work that never ends is the ends work.
+
+---
+
+## Finite and Infinite
+
+The framework rests on this distinction:
+
+**Camps are finite.** They have a start and an end. You plan them, do them, complete them. A Camp is an adventure on the way up: a family trip, a course launch, a dinner with an old friend. Finite things give you the wins that fuel the climb.
+
+**Mountains are infinite.** They never end. Family doesn't have a summit. Creating things is a lifelong practice. Connection is something you choose every day. You play infinite games for the joy of playing, not to win and be done.
+
+**Domains are infinite to maintain, finite to measure.** You never stop managing money or health. But each quarter you measure against a bar, and hitting the bar is good enough. The point is to free yourself from optimising means so you can focus on the ends.
+
+**Ends vs Means:**
+- Mountains are ends. You climb them because they matter in themselves.
+- Domains are means. You maintain them so they don't stop you climbing.
+
+When your means goals are met, you don't retire to the beach. You keep climbing. That's the life.
 
 ---
 
@@ -65,14 +105,14 @@ Install all four skills in Claude. They work together as a system.
 **When Claude uses it:** *"Help me figure out what matters to me"*, *"I want to build a life OS"*, *"what should I actually be working toward"*.
 
 ### 2. `mountains-quarterly-setup`
-**Run each quarter.** Maps your camps to mountains, scans your calendar for events that belong in the plan, flags which mountains have no footsteps, and builds your full Notion + TickTick structure — including Mountains database, Camps database, Clouds page, Personal CRM, and the ⛺ Camps TickTick project with mountain sections.
+**Run each quarter.** Maps your Camps to Mountains, sets bars for Domains, scans your calendar for events that belong in the plan, flags which Mountains have no footsteps, and builds your full Notion + TickTick structure — including Mountains database, Camps database, Domains tracking, Clouds page, Personal CRM, and the ⛺ Camps TickTick project with Mountain sections.
 
 **When Claude uses it:** *"Help me plan my quarter"*, *"set up my camps"*, *"map my goals to my mountains"*.
 
 **Requires:** Notion. Google Calendar. TickTick (or any task manager).
 
 ### 3. `mountains-weekly-review`
-**Run every Saturday.** Pulls completed steps from your task manager, maps them to mountains, checks your Personal CRM for overdue connections, gives an honest read on which mountains got steps and which didn't, pre-loads next week's mountain steps into ⛺ Camps, and surfaces one deliberate action for each neglected mountain.
+**Run every Saturday.** Pulls completed steps from your task manager, maps them to Mountains, checks your Personal CRM for overdue connections, gives an honest read on which Mountains got steps and which didn't, tracks your daily Soul Force streak (ticked Camps), pre-loads next week's Mountain steps into ⛺ Camps, and surfaces one deliberate action for each neglected Mountain. Domains are tracked separately for quarterly bar checks.
 
 **When Claude uses it:** *"Weekly review"*, *"review my week"*, *"how did my week go"*.
 
@@ -101,15 +141,15 @@ Claude will guide you through a 30-60 minute conversation. Come with your curren
 
 **Step 3 — Set up Notion**
 
-Claude builds your Mountains hub page in Notion — the Mountains database, Camps database, Clouds page, and Personal CRM.
+Claude builds your Mountains hub page in Notion — the Mountains database, Camps database, Domains tracking, Clouds page, and Personal CRM.
 
 **Step 4 — Set up TickTick**
 
-Claude creates a ⛺ Camps project in TickTick with five sections — one per mountain. This is where your steps live.
+Claude creates a ⛺ Camps project in TickTick with four sections — one per Mountain. This is where your Mountain steps live. Domains get their own operational task lists (Financial, Health, Career, plus Home and Shopping).
 
 **Step 5 — Plan your quarter**
 
-Share your current goals list and Claude will map everything to mountains as camps, identify gaps, assign dates, and pre-load steps into ⛺ Camps.
+Share your current goals list and Claude will map your ends goals to Mountains as Camps, set bars for your Domains, identify gaps, assign dates, and pre-load steps into ⛺ Camps.
 
 **Step 6 — Book the mountain moments**
 
@@ -122,6 +162,18 @@ Pick a time (Saturday afternoon works well) and set a recurring reminder. Every 
 **Step 8 — Start your morning check-in**
 
 Each morning, open Claude and say "morning". Claude will pull your open steps from ⛺ Camps, show what's due this week, and suggest where to focus your session.
+
+---
+
+## Quarterly Reviews: The Split View
+
+Quarterly reviews have two parts:
+
+**Mountains** are judged by narrative. You look back at the Camps you completed and ask: was this quarter good enough? Did I show up for what matters? The measure isn't a number. It's whether you feel the climb.
+
+**Domains** are judged by bars. Did you hit the Financial growth %? Did you hit 80% on Health metrics? Did you meet the Career quarterly goals? If yes, good enough. Move on. If no, adjust the system.
+
+The split matters. Mountains don't get reduced to metrics. Domains don't get narrativised into endless optimisation. Each gets the review method it deserves.
 
 ---
 
@@ -138,18 +190,19 @@ Each morning, open Claude and say "morning". Claude will pull your open steps fr
 
 ## The ⛺ Camps TickTick Project
 
-Create a project called **⛺ Camps** in TickTick with five sections:
+Create a project called **⛺ Camps** in TickTick with four sections (one per Mountain):
 
 ```
 ⛺ Camps
 ├── 🏠 Family
+├── ✍️ Create Things
 ├── 🤝 Connection
-├── ✍️ Creation
-├── 💰 Financial
-└── 🌍 Life
+└── 🌍 Full Life
 ```
 
-Every step you take toward a mountain lives here. This is what you open at 5:30am. This is what the weekly review checks.
+Every step you take toward a Mountain lives here. This is what you open at 5:30am. This is what the weekly review checks for narrative progress.
+
+Domains (Financial, Health, Career) live in their own operational task lists. You track them, but they don't get Camps or Camp pitches. They get quarterly bar checks.
 
 ---
 
